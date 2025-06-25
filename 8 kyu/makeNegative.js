@@ -8,7 +8,12 @@
 
 
 function makeNegative(num) {
-  num = - num
-  return num;
+
+  if (num > 0){
+      return - num
+  }
+  else {
+      return num
+  }
 }
-console.log(makeNegative(2));
+console.log(makeNegative(-22));
